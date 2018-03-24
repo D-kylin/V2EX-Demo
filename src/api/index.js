@@ -1,6 +1,6 @@
 const API_CONFIG = {
   // 最热主题：相当于首页右侧的 10 大每天的内容。
-  hotTopic: 'https://www.v2ex.com/api/topics/latest.json',
+  hotTopic: 'https://www.v2ex.com/api/topics/hot.json',
 
   // 最新主题：相当于首页的“全部”这个 tab 下的最新内容。
   newTopic: 'https://www.v2ex.com/api/topics/latest.json',
