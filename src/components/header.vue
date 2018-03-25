@@ -22,9 +22,11 @@
   header {
     width: 100%;
     padding: 0 20px;
-    padding-bottom: 6px;
+    padding-bottom: 8px;
+    font-size: 15px;
     border-bottom: 1px solid rgb(199, 199, 199);
     box-shadow: 0 2px 2px rgb(206, 206, 206);
+    background-color: rgb(255, 255, 255);
     .content {     
       max-width: 1100px;
       min-width: 600px;
@@ -41,5 +43,10 @@
     float: left;
     line-height: 30px;
     margin-right: 14px;
+    a {
+      &:hover {
+        color: #99a;
+      }
+    }
   }
 </style>
