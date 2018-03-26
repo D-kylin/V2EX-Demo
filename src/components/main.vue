@@ -115,6 +115,7 @@
   }
   nav {
     font-size: 13px;
+    padding: 10px;
     a {
       float: left;
       color: #555;
@@ -152,6 +153,7 @@
     border-bottom: 1px solid rgb(226, 226, 226);
     .avator {
       width: 48px;
+      height: 48px;
       margin-right: 10px;
       &:hover {
         cursor: pointer;
@@ -166,10 +168,10 @@
         font-size: 11px;
         margin-top: 5px;
         .node {
-          padding: 4px;
+          padding: 2px 0;
           margin-right: 16px;
           border-radius: 3px;
-          background: rgb(240, 240, 240);
+          background: rgb(230, 230, 230);
         }
         strong {
           margin-right: 16px;
@@ -193,6 +195,5 @@
       }
     }
   }
-
 </style>
 
